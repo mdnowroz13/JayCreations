@@ -81,9 +81,9 @@ export default function ProductInfo({ product }: ProductInfoProps) {
 
                 <div className="flex items-center gap-4 mb-4">
                     <div className="flex items-baseline gap-3">
-                        <span className="text-2xl font-medium">${product.price}</span>
+                        <span className="text-2xl font-medium">₹{product.price}</span>
                         {product.originalPrice && (
-                            <span className="text-muted-foreground line-through">${product.originalPrice}</span>
+                            <span className="text-muted-foreground line-through">₹{product.originalPrice}</span>
                         )}
                     </div>
                     <div className="flex items-center gap-1 text-sm">

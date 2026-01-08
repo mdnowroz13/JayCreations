@@ -13,7 +13,7 @@ export default function Footer() {
     return (
         <footer className="bg-muted/30 pt-20 pb-10 border-t border-border">
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
                     <div className="space-y-4">
                         <Link href="/" className="text-2xl font-bold tracking-tighter">
                             JAY<span className="text-accent">.</span>
@@ -56,27 +56,6 @@ export default function Footer() {
                             <li><Link href="/faqs" className="hover:text-foreground transition-colors">FAQs</Link></li>
                             <li><Link href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link></li>
                         </ul>
-                    </div>
-
-                    <div>
-                        <h3 className="font-bold mb-6">Newsletter</h3>
-                        <p className="text-sm text-muted-foreground mb-4">
-                            Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.
-                        </p>
-                        <form className="flex gap-2">
-                            <input
-                                type="email"
-                                placeholder="Enter your email"
-                                className="flex-1 bg-background border border-border rounded-full px-4 py-2 text-sm focus:outline-none focus:border-accent"
-                                suppressHydrationWarning
-                            />
-                            <button
-                                className="bg-primary text-background px-6 py-2 rounded-full text-sm font-medium hover:opacity-90 transition-opacity"
-                                suppressHydrationWarning
-                            >
-                                Join
-                            </button>
-                        </form>
                     </div>
                 </div>
 

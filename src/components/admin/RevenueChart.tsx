@@ -4,18 +4,18 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 
 const data = [
-    { month: "Jan", revenue: 12000 },
-    { month: "Feb", revenue: 19000 },
-    { month: "Mar", revenue: 15000 },
-    { month: "Apr", revenue: 22000 },
-    { month: "May", revenue: 28000 },
-    { month: "Jun", revenue: 25000 },
-    { month: "Jul", revenue: 35000 },
-    { month: "Aug", revenue: 29000 },
-    { month: "Sep", revenue: 42000 },
-    { month: "Oct", revenue: 38000 },
-    { month: "Nov", revenue: 45000 },
-    { month: "Dec", revenue: 52000 },
+    { month: "Jan", revenue: 1200000 },
+    { month: "Feb", revenue: 1900000 },
+    { month: "Mar", revenue: 1500000 },
+    { month: "Apr", revenue: 2200000 },
+    { month: "May", revenue: 2800000 },
+    { month: "Jun", revenue: 2500000 },
+    { month: "Jul", revenue: 3500000 },
+    { month: "Aug", revenue: 2900000 },
+    { month: "Sep", revenue: 4200000 },
+    { month: "Oct", revenue: 3800000 },
+    { month: "Nov", revenue: 4500000 },
+    { month: "Dec", revenue: 5200000 },
 ]
 
 export default function RevenueChart() {

@@ -69,7 +69,7 @@ export default function Hero() {
                 >
                     <Link href="/shop" className="w-full md:w-auto">
                         <Button size="lg" className="bg-white text-black hover:bg-white/90 border-none w-full md:w-48 rounded-full h-12 text-sm uppercase tracking-wide font-bold">
-                            Shop Collection
+                            Shop Now
                         </Button>
                     </Link>
                 </motion.div>

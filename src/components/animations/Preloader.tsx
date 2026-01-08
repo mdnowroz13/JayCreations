@@ -11,21 +11,19 @@ export default function Preloader() {
         // Check if preloader has already run in this session
         const hasPreloaded = sessionStorage.getItem("hasPreloaded")
 
-        if (hasPreloaded) {
-            setIsLoading(false)
-            return
-        }
-
         // Prevent browser from restoring scroll position
         if (typeof window !== "undefined") {
             window.history.scrollRestoration = "manual"
         }
 
+        // If already visited, show for shorter time (2.5s), else full time (4s)
+        const duration = hasPreloaded ? 2500 : 4000
+
         const timer = setTimeout(() => {
             setIsLoading(false)
             window.scrollTo(0, 0)
             sessionStorage.setItem("hasPreloaded", "true")
-        }, 4000)
+        }, duration)
 
         return () => clearTimeout(timer)
     }, [])

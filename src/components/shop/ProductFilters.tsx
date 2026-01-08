@@ -113,8 +113,8 @@ export default function ProductFilters({
                         >
                             <div className="pt-2 px-1">
                                 <div className="flex items-center justify-between text-sm mb-4">
-                                    <span>${priceRange[0]}</span>
-                                    <span>${priceRange[1]}</span>
+                                    <span>₹{priceRange[0]}</span>
+                                    <span>₹{priceRange[1]}</span>
                                 </div>
                                 <input
                                     type="range"
@@ -125,7 +125,7 @@ export default function ProductFilters({
                                     className="w-full h-1 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-black"
                                 />
                                 <p className="text-xs text-muted-foreground mt-2">
-                                    Max Price: ${priceRange[1]}
+                                    Max Price: ₹{priceRange[1]}
                                 </p>
                             </div>
                         </motion.div>
