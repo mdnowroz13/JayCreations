@@ -50,7 +50,7 @@ export default function Preloader() {
                                 initial={{ y: "100%" }}
                                 animate={{ y: 0 }}
                                 transition={{ duration: 0.8, delay: 2.5, ease: [0.76, 0, 0.24, 1] }}
-                                className="text-[#E2B750] text-3xl md:text-4xl font-serif font-medium tracking-[0.2em] uppercase"
+                                className="text-[#E2B750] text-xl sm:text-2xl md:text-4xl font-serif font-medium tracking-[0.15em] md:tracking-[0.2em] uppercase"
                                 style={{ fontFamily: 'var(--font-playfair)' }}
                             >
                                 Jay Creations

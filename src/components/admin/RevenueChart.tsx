@@ -24,7 +24,7 @@ export default function RevenueChart() {
 
     return (
         <div className="w-full h-full flex flex-col justify-end">
-            <div className="flex items-end justify-between gap-2 h-[250px] w-full px-2">
+            <div className="flex items-end justify-between gap-1 md:gap-2 h-[250px] w-full px-0 md:px-2">
                 {data.map((item, index) => {
                     const heightPercentage = (item.revenue / maxRevenue) * 100
                     return (
